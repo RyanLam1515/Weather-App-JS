@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="input">
+        <input type="text" class="inputValue" placeholder="Enter a city">
+        <input type="submit" value="Submit" class="submit">
+    </div>
+    <div class ="currentLocationContainer">
+        <button class = "currentLocationButton">Get weather from my current location</button>
+    </div>
+
+    <div class="container">
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <div class="notification"></div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt=" ">
+            </div>
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+            <div class="max-min-container">
+                <div class="temperature-min">
+                    <p>- °<span>C</span></p>
+                </div>
+                <div class="temperature-max">
+                    <p>- °<span>C</span></p>
+                </div>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="temperature-location">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
